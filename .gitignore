@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Infisical scan cache
+.infisical-scan-cache/
+
+# IDE/editor noise
+.vscode/
+.cursor/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.code-workspace
+
+# OS junk
+Thumbs.db
+
+
+.mcp.json
+.mise.local.toml
+
+# act (GitHub Actions local runner)
+.env.act
