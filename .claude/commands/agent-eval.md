@@ -107,18 +107,6 @@ Generate a detailed evaluation report in markdown:
 1. [Major enhancement or redesign]
 2. [Strategic improvement]
 
-## Comparison Analysis
-
-### Baseline Comparison
-**Direct Claude Performance** (without agent):
-- Time: [Baseline time]
-- Quality: [Baseline quality]
-- Tool usage: [Baseline tool usage]
-
-**Agent Performance Delta**:
-- Speed: [+X% faster / -X% slower]
-- Quality: [Better/Same/Worse with specifics]
-- Efficiency: [More/Less efficient with metrics]
 
 ## Specific Examples
 
