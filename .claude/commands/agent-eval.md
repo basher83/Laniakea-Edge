@@ -120,9 +120,6 @@ Generate a detailed evaluation report in markdown:
 - Quality: [Better/Same/Worse with specifics]
 - Efficiency: [More/Less efficient with metrics]
 
-### Similar Agent Comparison
-[If other similar agents exist, compare performance]
-
 ## Specific Examples
 
 ### Success Case
