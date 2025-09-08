@@ -1,6 +1,6 @@
 # Project Decisions Matrix
 
-This document identifies the key decisions that need to be made to move the Laniakea-Edge project forward from research to implementation. Each decision requires an Architecture Decision Record (ADR) following the template at [`docs/ADR/ADR-TEMPLATE.md`](../ADR/ADR-TEMPLATE.md).
+This document identifies the key decisions that need to be made to move the Laniakea-Edge project forward from research to implementation. Each decision requires an Architecture Decision Record (ADR) following the template at [`docs/decisions/adr-template.md`](../decisions/adr-template.md).
 
 ## Decision Evaluation Framework
 
@@ -430,9 +430,9 @@ graph TD
 
 ## References
 
-- [ADR Template](../ADR/ADR-TEMPLATE.md)
+- [ADR Template](../decisions/adr-template.md)
 - [Research Documentation](../research/)
-- [Architecture Decision Records](../ADR/)
+- [Architecture Decision Records](../decisions/)
 
 ---
 

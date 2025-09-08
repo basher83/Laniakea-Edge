@@ -3,8 +3,8 @@
 **The AI-powered quality engine for Infrastructure-as-Code, beginning with deep analysis for the Ansible ecosystem.**
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Planning-yellow.svg)](docs/2-planning/)
-[![Phase](https://img.shields.io/badge/Phase-0_Architecture-orange.svg)](docs/2-planning/roadmap.md)
+[![Status](https://img.shields.io/badge/Status-Planning-yellow.svg)](docs/planning/)
+[![Phase](https://img.shields.io/badge/Phase-0_Architecture-orange.svg)](docs/planning/roadmap.md)
 
 ## Project Status
 
@@ -14,7 +14,7 @@
 - 📋 POC planned for validation
 - ⏳ No implementation code yet
 
-See [Planning Documents](docs/2-planning/) for current progress and [Decision Matrix](docs/2-planning/decisions-matrix.md) for pending architectural decisions.
+See [Planning Documents](docs/planning/) for current progress and [Decision Matrix](docs/planning/decisions-matrix.md) for pending architectural decisions.
 
 ## Vision
 
@@ -80,7 +80,7 @@ The following technologies are being evaluated and will be finalized through Arc
 - **Container**: Docker
 - **Documentation**: Markdown with ADRs
 
-See [Technology Stack Reference](docs/5-reference/tech-stack.md) for detailed evaluation criteria and [Decision Matrix](docs/2-planning/decisions-matrix.md) for decision status.
+See [Technology Stack Reference](docs/reference/tech-stack.md) for detailed evaluation criteria and [Decision Matrix](docs/planning/decisions-matrix.md) for decision status.
 
 ## Development Roadmap
 
@@ -112,7 +112,7 @@ See [Technology Stack Reference](docs/5-reference/tech-stack.md) for detailed ev
 - Security hardening
 - Beta release preparation
 
-See [Full Roadmap](docs/2-planning/roadmap.md) for detailed timeline and milestones.
+See [Full Roadmap](docs/planning/roadmap.md) for detailed timeline and milestones.
 
 ## Planned Usage
 
@@ -171,45 +171,45 @@ The service will implement MCP for AI agent integration:
 }
 ```
 
-See [API Design Documentation](docs/3-architecture/api-design.md) for complete specifications.
+See [API Design Documentation](docs/architecture/api-design.md) for complete specifications.
 
 ## Documentation
 
 The project documentation is organized into five main sections:
 
-### 📚 [Research Phase](docs/1-research/)
+### 📚 [Research Phase](docs/research/)
 - Problem analysis and validation
 - Market and competitive analysis  
 - Technical architecture research
 
-### 📋 [Planning & Tracking](docs/2-planning/)
-- **[Decision Matrix](docs/2-planning/decisions-matrix.md)** - Architectural decisions tracking
-- **[Risk Register](docs/2-planning/risk-register.md)** - Risk identification and mitigation
-- **[POC Plan](docs/2-planning/poc-plan.md)** - Proof of concept strategy
-- **[Requirements](docs/2-planning/requirements.md)** - Functional and non-functional requirements
+### 📋 [Planning & Tracking](docs/planning/)
+- **[Decision Matrix](docs/planning/decisions-matrix.md)** - Architectural decisions tracking
+- **[Risk Register](docs/planning/risk-register.md)** - Risk identification and mitigation
+- **[POC Plan](docs/planning/poc-plan.md)** - Proof of concept strategy
+- **[Requirements](docs/planning/requirements.md)** - Functional and non-functional requirements
 
-### 🏗️ [Architecture Design](docs/3-architecture/)
-- **[System Design](docs/3-architecture/system-design.md)** - High-level architecture
-- **[API Specification](docs/3-architecture/api-design.md)** - API contracts and MCP integration
-- **[Quality Framework](docs/3-architecture/quality-framework.md)** - Scoring methodology
+### 🏗️ [Architecture Design](docs/architecture/)
+- **[System Design](docs/architecture/system-design.md)** - High-level architecture
+- **[API Specification](docs/architecture/api-design.md)** - API contracts and MCP integration
+- **[Quality Framework](docs/architecture/quality-framework.md)** - Scoring methodology
 
-### 📝 [Architecture Decisions](docs/4-decisions/)
+### 📝 [Architecture Decisions](docs/decisions/)
 - ADR template and lifecycle folders
 - Pending and accepted decisions
 
-### 📖 [Quick Reference](docs/5-reference/)
-- **[Technology Stack](docs/5-reference/tech-stack.md)** - Technology evaluation status
-- **[Pre-Implementation Checklist](docs/5-reference/checklist.md)** - Readiness assessment
-- **[Glossary](docs/5-reference/glossary.md)** - Terms and definitions
+### 📖 [Quick Reference](docs/reference/)
+- **[Technology Stack](docs/reference/tech-stack.md)** - Technology evaluation status
+- **[Pre-Implementation Checklist](docs/reference/checklist.md)** - Readiness assessment
+- **[Glossary](docs/reference/glossary.md)** - Terms and definitions
 
 ## Getting Started
 
 ### For Contributors
 
-1. **Understand the Project**: Start with [Research Documentation](docs/1-research/)
-2. **Review Current Status**: Check [Planning Documents](docs/2-planning/)
-3. **Architecture Decisions**: Monitor [Decision Matrix](docs/2-planning/decisions-matrix.md)
-4. **POC Participation**: See [POC Plan](docs/2-planning/poc-plan.md)
+1. **Understand the Project**: Start with [Research Documentation](docs/research/)
+2. **Review Current Status**: Check [Planning Documents](docs/planning/)
+3. **Architecture Decisions**: Monitor [Decision Matrix](docs/planning/decisions-matrix.md)
+4. **POC Participation**: See [POC Plan](docs/planning/poc-plan.md)
 
 ### Next Steps
 
@@ -235,7 +235,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - **Documentation**: [docs/](docs/)
-- **Planning Status**: [docs/2-planning/](docs/2-planning/)
+- **Planning Status**: [docs/planning/](docs/planning/)
 - **Issues**: [GitHub Issues](https://github.com/your-org/laniakea-edge/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/your-org/laniakea-edge/discussions)
 

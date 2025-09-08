@@ -8,16 +8,16 @@ The documentation is organized into five main sections following a logical progr
 
 ```
 docs/
-├── 1-research/      # Completed research and analysis
-├── 2-planning/      # Active planning and tracking
-├── 3-architecture/  # Technical design documentation
-├── 4-decisions/     # Architecture Decision Records
-└── 5-reference/     # Quick reference guides
+├── research/      # Completed research and analysis
+├── planning/      # Active planning and tracking
+├── architecture/  # Technical design documentation
+├── decisions/     # Architecture Decision Records
+└── reference/     # Quick reference guides
 ```
 
 ## 📁 Directory Overview
 
-### [1-research/](./1-research/) - Research Phase Documentation
+### [research/](./research/) - Research Phase Documentation
 **Status**: ✅ Complete
 
 Contains the foundational research that informed the project's direction:
@@ -27,30 +27,30 @@ Contains the foundational research that informed the project's direction:
 
 *These are read-only reference documents from the completed research phase.*
 
-### [2-planning/](./2-planning/) - Planning & Tracking
+### [planning/](./planning/) - Planning & Tracking
 **Status**: 🔄 Active
 
 Living documents that guide project execution:
-- **[decisions-matrix.md](./2-planning/decisions-matrix.md)**: Primary decision tracking document
-- **[roadmap.md](./2-planning/roadmap.md)**: Project phases and timeline
-- **[requirements.md](./2-planning/requirements.md)**: Functional and non-functional requirements
-- **[risk-register.md](./2-planning/risk-register.md)**: Risk identification and mitigation
-- **[poc-plan.md](./2-planning/poc-plan.md)**: Proof of concept strategy
+- **[decisions-matrix.md](./planning/decisions-matrix.md)**: Primary decision tracking document
+- **[roadmap.md](./planning/roadmap.md)**: Project phases and timeline
+- **[requirements.md](./planning/requirements.md)**: Functional and non-functional requirements
+- **[risk-register.md](./planning/risk-register.md)**: Risk identification and mitigation
+- **[poc-plan.md](./planning/poc-plan.md)**: Proof of concept strategy
 
 *These documents are actively maintained throughout the project.*
 
-### [3-architecture/](./3-architecture/) - Architecture Documentation
+### [architecture/](./architecture/) - Architecture Documentation
 **Status**: ✅ Designed
 
 Technical architecture and design specifications:
-- **[system-design.md](./3-architecture/system-design.md)**: High-level system architecture
-- **[microservices.md](./3-architecture/microservices.md)**: Service definitions and boundaries
-- **[api-design.md](./3-architecture/api-design.md)**: API specifications and contracts
-- **[quality-framework.md](./3-architecture/quality-framework.md)**: Quality assessment methodology
+- **[system-design.md](./architecture/system-design.md)**: High-level system architecture
+- **[microservices.md](./architecture/microservices.md)**: Service definitions and boundaries
+- **[api-design.md](./architecture/api-design.md)**: API specifications and contracts
+- **[quality-framework.md](./architecture/quality-framework.md)**: Quality assessment methodology
 
 *These define the technical blueprint for implementation.*
 
-### [4-decisions/](./4-decisions/) - Architecture Decision Records
+### [decisions/](./decisions/) - Architecture Decision Records
 **Status**: 📋 Pending
 
 Formal documentation of architectural decisions:
@@ -61,13 +61,13 @@ Formal documentation of architectural decisions:
 
 *ADRs will be created as decisions are made during Phase 0.*
 
-### [5-reference/](./5-reference/) - Quick Reference
+### [reference/](./reference/) - Quick Reference
 **Status**: ✅ Complete
 
 Quick reference guides and summaries:
-- **[glossary.md](./5-reference/glossary.md)**: Terms and acronyms
-- **[tech-stack.md](./5-reference/tech-stack.md)**: Technology choices and status
-- **[checklist.md](./5-reference/checklist.md)**: Pre-implementation checklist
+- **[glossary.md](./reference/glossary.md)**: Terms and acronyms
+- **[tech-stack.md](./reference/tech-stack.md)**: Technology choices and status
+- **[checklist.md](./reference/checklist.md)**: Pre-implementation checklist
 
 *Handy references for team members and contributors.*
 
@@ -94,31 +94,31 @@ Quick reference guides and summaries:
 ### For Different Roles
 
 #### 🧑‍💻 Developers
-1. Start with [`3-architecture/`](./3-architecture/) for technical design
-2. Check [`5-reference/tech-stack.md`](./5-reference/tech-stack.md) for technology choices
-3. Review [`5-reference/checklist.md`](./5-reference/checklist.md) before coding
+1. Start with [`architecture/`](./architecture/) for technical design
+2. Check [`reference/tech-stack.md`](./reference/tech-stack.md) for technology choices
+3. Review [`reference/checklist.md`](./reference/checklist.md) before coding
 
 #### 📊 Project Managers
-1. Monitor [`2-planning/roadmap.md`](./2-planning/roadmap.md) for timeline
-2. Track [`2-planning/risk-register.md`](./2-planning/risk-register.md) for risks
-3. Review [`2-planning/decisions-matrix.md`](./2-planning/decisions-matrix.md) for decision status
+1. Monitor [`planning/roadmap.md`](./planning/roadmap.md) for timeline
+2. Track [`planning/risk-register.md`](./planning/risk-register.md) for risks
+3. Review [`planning/decisions-matrix.md`](./planning/decisions-matrix.md) for decision status
 
 #### 🏗️ Architects
-1. Reference [`1-research/`](./1-research/) for background
-2. Create ADRs in [`4-decisions/`](./4-decisions/)
-3. Update [`3-architecture/`](./3-architecture/) as needed
+1. Reference [`research/`](./research/) for background
+2. Create ADRs in [`decisions/`](./decisions/)
+3. Update [`architecture/`](./architecture/) as needed
 
 #### 🆕 New Team Members
-1. Read [`1-research/README.md`](./1-research/README.md) for project context
-2. Review [`2-planning/requirements.md`](./2-planning/requirements.md) for scope
-3. Check [`5-reference/glossary.md`](./5-reference/glossary.md) for terminology
+1. Read [`research/README.md`](./research/README.md) for project context
+2. Review [`planning/requirements.md`](./planning/requirements.md) for scope
+3. Check [`reference/glossary.md`](./reference/glossary.md) for terminology
 
 ### Navigation Tips
 
-- **📍 Start Here**: [`2-planning/decisions-matrix.md`](./2-planning/decisions-matrix.md) - Current focus
-- **🗺️ Big Picture**: [`2-planning/roadmap.md`](./2-planning/roadmap.md) - Where we're going
-- **⚠️ Risks**: [`2-planning/risk-register.md`](./2-planning/risk-register.md) - What to watch
-- **✅ Checklist**: [`5-reference/checklist.md`](./5-reference/checklist.md) - Ready to code?
+- **📍 Start Here**: [`planning/decisions-matrix.md`](./planning/decisions-matrix.md) - Current focus
+- **🗺️ Big Picture**: [`planning/roadmap.md`](./planning/roadmap.md) - Where we're going
+- **⚠️ Risks**: [`planning/risk-register.md`](./planning/risk-register.md) - What to watch
+- **✅ Checklist**: [`reference/checklist.md`](./reference/checklist.md) - Ready to code?
 
 ## 📝 Documentation Standards
 
@@ -126,11 +126,11 @@ Quick reference guides and summaries:
 
 | Type | Location | Purpose | Update Frequency |
 |------|----------|---------|------------------|
-| Research | `1-research/` | Historical reference | Never (complete) |
-| Planning | `2-planning/` | Active tracking | Daily/Weekly |
-| Architecture | `3-architecture/` | Technical specs | As needed |
-| Decisions | `4-decisions/` | Formal choices | Per decision |
-| Reference | `5-reference/` | Quick lookup | As needed |
+| Research | `research/` | Historical reference | Never (complete) |
+| Planning | `planning/` | Active tracking | Daily/Weekly |
+| Architecture | `architecture/` | Technical specs | As needed |
+| Decisions | `decisions/` | Formal choices | Per decision |
+| Reference | `reference/` | Quick lookup | As needed |
 
 ### Quality Guidelines
 
@@ -163,9 +163,9 @@ graph LR
 ## 🚀 Next Steps
 
 ### Immediate (This Week)
-1. Review [`2-planning/decisions-matrix.md`](./2-planning/decisions-matrix.md)
+1. Review [`planning/decisions-matrix.md`](./planning/decisions-matrix.md)
 2. Create first ADR for Python version
-3. Start POC implementation per [`2-planning/poc-plan.md`](./2-planning/poc-plan.md)
+3. Start POC implementation per [`planning/poc-plan.md`](./planning/poc-plan.md)
 
 ### Short Term (Next 2 Weeks)
 1. Complete all Phase 1 ADRs
