@@ -17,7 +17,7 @@
     "@cloudflare/workers-oauth-provider": "^0.0.6",
     "@modelcontextprotocol/sdk": "1.13.1",
     "@sentry/cloudflare": "^9.16.0",
-    "agents": "^0.0.100",
+    "agents": "^0.0.113",
     "hono": "^4.9.6",
     "just-pick": "^4.2.0",
     "octokit": "^5.0.3",
