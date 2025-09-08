@@ -14,7 +14,7 @@
     "test:run": "vitest run"
   },
   "dependencies": {
-    "@cloudflare/workers-oauth-provider": "^0.0.5",
+    "@cloudflare/workers-oauth-provider": "^0.0.6",
     "@modelcontextprotocol/sdk": "1.13.1",
     "@sentry/cloudflare": "^9.16.0",
     "agents": "^0.0.100",
