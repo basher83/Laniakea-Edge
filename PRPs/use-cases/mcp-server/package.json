@@ -18,7 +18,7 @@
     "@modelcontextprotocol/sdk": "1.18.0",
     "@sentry/cloudflare": "^10.0.0",
     "agents": "^0.1.0",
-    "hono": "^4.9.6",
+    "hono": "^4.9.7",
     "just-pick": "^4.2.0",
     "octokit": "^5.0.3",
     "postgres": "^3.4.5",
