@@ -28,11 +28,11 @@
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.9.0",
     "@types/node": "^24.0.10",
-    "@vitest/ui": "^3.2.4",
+    "@vitest/ui": "^4.0.0",
     "prettier": "^3.6.2",
     "typescript": "^5.8.3",
     "vi-fetch": "^0.8.0",
-    "vitest": "^3.2.4",
+    "vitest": "^4.0.0",
     "wrangler": "^4.23.0"
   }
 }
